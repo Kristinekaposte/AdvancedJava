@@ -50,7 +50,7 @@ public class Road extends Transport{
     public Boolean getArrived() {
         return arrived;
     }
-
+@Override
     public String toString() {
             return  "from: " + from + ", to: " + to+", distance: "+distance+", arrived ?: "+arrived;
 

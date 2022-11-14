@@ -17,8 +17,9 @@ public class TransportManagement extends  Transport{
     }
 
     public void getAllTransports() {
-        for (int i = 0; i > allTransports.length; i++){
-            System.out.println("all transports" + allTransports[i]);
+        for (int i = 0; i < allTransports.length; i++){
+            System.out.println(allTransports[i].toString());
+
         }
     }
 
@@ -29,10 +30,18 @@ public class TransportManagement extends  Transport{
     }
 
     public void setRoads(Road road, int index){
+        if (index >= allTransports.length || index <0) {
+            System.out.println("sorry index out of bounds");
+            return;
+        }
         allRoads[index]=road;
     }
 
     public void setTransport(Transport transport, int index){
+        if (index >= allTransports.length || index <0) {
+            System.out.println("sorry index out of bounds");
+            return;
+        }
        allTransports[index]=transport;
     }
 
