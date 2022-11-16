@@ -1,6 +1,10 @@
 package Activity3;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.Year;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class User {
@@ -9,7 +13,7 @@ public class User {
     private int age;
     private String gender;
     private int id;
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
 
 
 // Getters
@@ -33,7 +37,7 @@ public class User {
         return id;
     }
 
-    public Date getDateOfBirth() {
+    public LocalDate getDateOfBirth() {
         return dateOfBirth;
     }
     //Setters
@@ -49,10 +53,11 @@ public class User {
     public void setAge(int age) {
         this.age = age;
         if (age < 18) {
-            System.out.println(age);
-            System.out.println("Underage");
+           // System.out.println(age);
+            System.out.println(toString());
+            System.out.println("You are underage");
         } else {
-            System.out.println(age);
+            System.out.println(toString());
 
         }
     }
@@ -65,12 +70,24 @@ public class User {
         this.id = id;
     }
 
-    public void setDateOfBirth(Date dateOfBirth) {
+    public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
-   int dateofB= LocalDate.now().getYear()-getAge();
-    int dOB = dateOfBirth.getYear();
-if (dateofB==dOB){
-    System.out.println("your age is valid");
-}
+        LocalDate currentDate = LocalDate.now();
+
+        long years = ChronoUnit.YEARS.between(dateOfBirth, currentDate); // gets how old is user
+        long dateofB= years-getAge(); // should return 0 if age - getAge is 0;
+     //   System.out.println(dateofB);
+
+        if (dateofB==0){
+            System.out.println("your age is valid and matches birthday");
+        }
+        else {
+            System.out.println("birthday does not match ur age");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Name " +this.firstName+", age: "+this.age;
     }
 }

@@ -1,5 +1,6 @@
 package Activity3;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Activity3 {
@@ -13,8 +14,8 @@ public class Activity3 {
 
 User user = new User();
 user.setFirstName("alex");
-user.setAge(16);
-user.setDateOfBirth(new Date(1995-10-20));
+user.setAge(27);
+user.setDateOfBirth(LocalDate.of(1995,10,20));
 
     }
 }

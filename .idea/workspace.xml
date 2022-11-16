@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="164eba07-aecb-4532-b25e-44471cd614f4" name="Changes" comment="third commit">
-      <change afterPath="$PROJECT_DIR$/src/Activity3/Activity3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Activity3/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Activity3/User.java" afterDir="false" />
+    <list default="true" id="164eba07-aecb-4532-b25e-44471cd614f4" name="Changes" comment="4th commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activity2/MainClassForTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activity2/MainClassForTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activity2/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activity2/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activity2/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activity2/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/activity2/TransportManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/activity2/TransportManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activity3/Activity3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activity3/Activity3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activity3/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activity3/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activity3/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activity3/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668270974555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4th commit">
+      <created>1668452652121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668452652121</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +181,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
+    <MESSAGE value="4th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th commit" />
   </component>
 </project>
